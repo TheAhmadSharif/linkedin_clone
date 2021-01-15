@@ -1,3 +1,6 @@
+const colors = require('tailwindcss/colors')
+
+
 module.exports = {
  
   theme: {
@@ -6,12 +9,17 @@ module.exports = {
       padding: '2rem',
       maxWidth: '80px'
     },
-     textColor: {
-       'primary': '#3490dc',
-       'secondary': '#ffed4a',
-       'linkedin': '#0a66c2',
-       'cgray': '#999'
-     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.trueGray,
+      indigo: colors.indigo,
+      red: colors.rose,
+      yellow: colors.amber,
+      linkedin: '#0a66c2',
+    },
     borderRadius: {
       'none': '0',
      'sm': '0.125rem',
