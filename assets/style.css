@@ -14,10 +14,6 @@ Use a better box model (opinionated).
 *::after {
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 94fa3cf3c21b9326a0f8df7d41ed02a71e34d5ef
 /**
 Use a more readable tab size (opinionated).
 */
